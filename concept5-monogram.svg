@@ -1,0 +1,16 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1024" height="1024" fill="#1A1A1A"/>
+  
+  <!-- IQ Monogram -->
+  <text x="512" y="620" font-family="Arial Black, sans-serif" font-size="480" font-weight="900" fill="#FF6B00" text-anchor="middle">IQ</text>
+  
+  <!-- Small ball accent replacing the dot concept -->
+  <circle cx="512" cy="780" r="40" fill="#FFFFFF"/>
+  
+  <!-- Subtle ball texture lines on the white circle -->
+  <g fill="none" stroke="#1A1A1A" stroke-width="4">
+    <line x1="472" y1="780" x2="552" y2="780"/>
+    <path d="M 512 740 Q 492 780 512 820"/>
+  </g>
+</svg>

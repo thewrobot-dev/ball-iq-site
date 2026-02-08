@@ -1,0 +1,24 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1024" height="1024" fill="#0A1628"/>
+  
+  <!-- Signal arcs -->
+  <g fill="none" stroke="#0066FF" stroke-width="24" stroke-linecap="round">
+    <path d="M 512 680 A 168 168 0 0 1 344 512" opacity="0.4"/>
+    <path d="M 512 760 A 248 248 0 0 1 264 512" opacity="0.6"/>
+    <path d="M 512 840 A 328 328 0 0 1 184 512" opacity="0.8"/>
+  </g>
+  
+  <!-- Center ball -->
+  <circle cx="512" cy="512" r="80" fill="#0066FF"/>
+  
+  <!-- Ball lines (basketball style) -->
+  <g fill="none" stroke="#0A1628" stroke-width="6">
+    <line x1="432" y1="512" x2="592" y2="512"/>
+    <path d="M 512 432 Q 472 512 512 592"/>
+    <path d="M 512 432 Q 552 512 512 592"/>
+  </g>
+  
+  <!-- IQ text -->
+  <text x="512" y="920" font-family="Arial Black, sans-serif" font-size="120" font-weight="900" fill="#FFFFFF" text-anchor="middle">BALL IQ</text>
+</svg>
